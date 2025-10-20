@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1736A8202D64D14600D8342C /* SlicesInfoWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1736A81E2D64D14600D8342C /* SlicesInfoWindowController.m */; };
+		1736A8222D64D15700D8342C /* SlicesInfoWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1736A8212D64D15700D8342C /* SlicesInfoWindowController.xib */; };
+		1736A8262D656EAA00D8342C /* SlicesInfoTab.m in Sources */ = {isa = PBXBuildFile; fileRef = 1736A8242D656EAA00D8342C /* SlicesInfoTab.m */; };
+		1736A8272D656EAA00D8342C /* SlicesInfoTab.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1736A8252D656EAA00D8342C /* SlicesInfoTab.xib */; };
+		1736A82A2D6596F200D8342C /* SlicesTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1736A8292D6596F200D8342C /* SlicesTextView.m */; };
+		175535C82D6D56EC001A44E1 /* SlicesCodeString.m in Sources */ = {isa = PBXBuildFile; fileRef = 175535C72D6D56EC001A44E1 /* SlicesCodeString.m */; };
+		175535CA2D6D576F001A44E1 /* objective-c.plist in Resources */ = {isa = PBXBuildFile; fileRef = 175535C92D6D576F001A44E1 /* objective-c.plist */; };
+		175535CD2D6D57BE001A44E1 /* SlicesTextStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 175535CC2D6D57BE001A44E1 /* SlicesTextStorage.m */; };
+		175535CF2D6D585E001A44E1 /* default.plist in Resources */ = {isa = PBXBuildFile; fileRef = 175535CE2D6D585E001A44E1 /* default.plist */; };
+		175535D22D6D58BF001A44E1 /* SlicesLayoutManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 175535D12D6D58BF001A44E1 /* SlicesLayoutManager.m */; };
+		175DAE972D556F1500C946E5 /* SlicesOutlineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 175DAE962D556F1500C946E5 /* SlicesOutlineView.m */; };
+		177393BF2D4475B2004DE27F /* SlicesWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 177393BD2D4475B2004DE27F /* SlicesWindowController.m */; };
+		177393C02D4475B2004DE27F /* SlicesWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 177393BE2D4475B2004DE27F /* SlicesWindowController.xib */; };
+		177393C42D447A93004DE27F /* SlicesTableCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = 177393C32D447A93004DE27F /* SlicesTableCellView.m */; };
+		177393CA2D4483FC004DE27F /* SlicesTreeNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 177393C92D4483FC004DE27F /* SlicesTreeNode.m */; };
+		1780D1C52D5994DA00D58362 /* NSObject+Slices.m in Sources */ = {isa = PBXBuildFile; fileRef = 175DAE992D55792000C946E5 /* NSObject+Slices.m */; };
+		17A92DAB2D4706C800878241 /* SlicesWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 17A92DAA2D4706C800878241 /* SlicesWindow.m */; };
+		17A92DAD2D4723FE00878241 /* SlicesViewHierarchy.m in Sources */ = {isa = PBXBuildFile; fileRef = 177393CC2D4484D8004DE27F /* SlicesViewHierarchy.m */; };
+		17A92DAE2D47240400878241 /* SlicesTree.m in Sources */ = {isa = PBXBuildFile; fileRef = 177393C62D4483D0004DE27F /* SlicesTree.m */; };
+		17ACE49F2D5434EA00CBBC90 /* SlicesInfoWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 17ACE49E2D5434EA00CBBC90 /* SlicesInfoWindow.m */; };
+		17FA6A8D2CD9B606002F09BC /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17FA6A8C2CD9B606002F09BC /* AppKit.framework */; };
+		17FA6A8F2CD9B606002F09BC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17FA6A8E2CD9B606002F09BC /* Foundation.framework */; };
+		17FA6A932CD9B606002F09BC /* Slices.m in Sources */ = {isa = PBXBuildFile; fileRef = 17FA6A922CD9B606002F09BC /* Slices.m */; };
+		17FA6A972CD9B606002F09BC /* ZKSwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = 17FA6A962CD9B606002F09BC /* ZKSwizzle.m */; };
+		17FA6A9A2CD9B606002F09BC /* PrefixHeader.pch in Resources */ = {isa = PBXBuildFile; fileRef = 17FA6A992CD9B606002F09BC /* PrefixHeader.pch */; };
+		17FA6A9C2CD9B606002F09BC /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 17FA6A9B2CD9B606002F09BC /* Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1736A81E2D64D14600D8342C /* SlicesInfoWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlicesInfoWindowController.m; sourceTree = "<group>"; };
+		1736A81F2D64D14600D8342C /* SlicesInfoWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlicesInfoWindowController.h; sourceTree = "<group>"; };
+		1736A8212D64D15700D8342C /* SlicesInfoWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SlicesInfoWindowController.xib; sourceTree = "<group>"; };
+		1736A8232D656EAA00D8342C /* SlicesInfoTab.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SlicesInfoTab.h; sourceTree = "<group>"; };
+		1736A8242D656EAA00D8342C /* SlicesInfoTab.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SlicesInfoTab.m; sourceTree = "<group>"; };
+		1736A8252D656EAA00D8342C /* SlicesInfoTab.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SlicesInfoTab.xib; sourceTree = "<group>"; };
+		1736A8282D6596F200D8342C /* SlicesTextView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SlicesTextView.h; sourceTree = "<group>"; };
+		1736A8292D6596F200D8342C /* SlicesTextView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SlicesTextView.m; sourceTree = "<group>"; };
+		175535C62D6D56EC001A44E1 /* SlicesCodeString.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SlicesCodeString.h; sourceTree = "<group>"; };
+		175535C72D6D56EC001A44E1 /* SlicesCodeString.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SlicesCodeString.m; sourceTree = "<group>"; };
+		175535C92D6D576F001A44E1 /* objective-c.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "objective-c.plist"; sourceTree = "<group>"; };
+		175535CB2D6D57BE001A44E1 /* SlicesTextStorage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SlicesTextStorage.h; sourceTree = "<group>"; };
+		175535CC2D6D57BE001A44E1 /* SlicesTextStorage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SlicesTextStorage.m; sourceTree = "<group>"; };
+		175535CE2D6D585E001A44E1 /* default.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = default.plist; sourceTree = "<group>"; };
+		175535D02D6D58BF001A44E1 /* SlicesLayoutManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SlicesLayoutManager.h; sourceTree = "<group>"; };
+		175535D12D6D58BF001A44E1 /* SlicesLayoutManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SlicesLayoutManager.m; sourceTree = "<group>"; };
+		175DAE952D556F1500C946E5 /* SlicesOutlineView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SlicesOutlineView.h; sourceTree = "<group>"; };
+		175DAE962D556F1500C946E5 /* SlicesOutlineView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SlicesOutlineView.m; sourceTree = "<group>"; };
+		175DAE992D55792000C946E5 /* NSObject+Slices.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Slices.m"; sourceTree = "<group>"; };
+		175DAE9B2D55794600C946E5 /* NSObject+Slices.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+Slices.h"; sourceTree = "<group>"; };
+		177393BC2D4475B2004DE27F /* SlicesWindowController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SlicesWindowController.h; sourceTree = "<group>"; };
+		177393BD2D4475B2004DE27F /* SlicesWindowController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SlicesWindowController.m; sourceTree = "<group>"; };
+		177393BE2D4475B2004DE27F /* SlicesWindowController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SlicesWindowController.xib; sourceTree = "<group>"; };
+		177393C22D447A93004DE27F /* SlicesTableCellView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SlicesTableCellView.h; sourceTree = "<group>"; };
+		177393C32D447A93004DE27F /* SlicesTableCellView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SlicesTableCellView.m; sourceTree = "<group>"; };
+		177393C52D4483D0004DE27F /* SlicesTree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SlicesTree.h; sourceTree = "<group>"; };
+		177393C62D4483D0004DE27F /* SlicesTree.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SlicesTree.m; sourceTree = "<group>"; };
+		177393C82D4483FC004DE27F /* SlicesTreeNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SlicesTreeNode.h; sourceTree = "<group>"; };
+		177393C92D4483FC004DE27F /* SlicesTreeNode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SlicesTreeNode.m; sourceTree = "<group>"; };
+		177393CB2D4484D8004DE27F /* SlicesViewHierarchy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SlicesViewHierarchy.h; sourceTree = "<group>"; };
+		177393CC2D4484D8004DE27F /* SlicesViewHierarchy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SlicesViewHierarchy.m; sourceTree = "<group>"; };
+		17A92DA92D4706C800878241 /* SlicesWindow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SlicesWindow.h; sourceTree = "<group>"; };
+		17A92DAA2D4706C800878241 /* SlicesWindow.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SlicesWindow.m; sourceTree = "<group>"; };
+		17ACE49D2D5434EA00CBBC90 /* SlicesInfoWindow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SlicesInfoWindow.h; sourceTree = "<group>"; };
+		17ACE49E2D5434EA00CBBC90 /* SlicesInfoWindow.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SlicesInfoWindow.m; sourceTree = "<group>"; };
+		17FA6A892CD9B606002F09BC /* Slices.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Slices.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		17FA6A8C2CD9B606002F09BC /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		17FA6A8E2CD9B606002F09BC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		17FA6A912CD9B606002F09BC /* Slices.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Slices.h; sourceTree = "<group>"; };
+		17FA6A922CD9B606002F09BC /* Slices.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Slices.m; sourceTree = "<group>"; };
+		17FA6A952CD9B606002F09BC /* ZKSwizzle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZKSwizzle.h; sourceTree = "<group>"; };
+		17FA6A962CD9B606002F09BC /* ZKSwizzle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZKSwizzle.m; sourceTree = "<group>"; };
+		17FA6A992CD9B606002F09BC /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		17FA6A9B2CD9B606002F09BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		17FA6A862CD9B606002F09BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17FA6A8D2CD9B606002F09BC /* AppKit.framework in Frameworks */,
+				17FA6A8F2CD9B606002F09BC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		175DAE982D55790700C946E5 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				175DAE9B2D55794600C946E5 /* NSObject+Slices.h */,
+				175DAE992D55792000C946E5 /* NSObject+Slices.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		177393C12D447A6D004DE27F /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				175535C62D6D56EC001A44E1 /* SlicesCodeString.h */,
+				175535C72D6D56EC001A44E1 /* SlicesCodeString.m */,
+				175535D02D6D58BF001A44E1 /* SlicesLayoutManager.h */,
+				175535D12D6D58BF001A44E1 /* SlicesLayoutManager.m */,
+				1736A8232D656EAA00D8342C /* SlicesInfoTab.h */,
+				1736A8242D656EAA00D8342C /* SlicesInfoTab.m */,
+				1736A8252D656EAA00D8342C /* SlicesInfoTab.xib */,
+				17ACE49D2D5434EA00CBBC90 /* SlicesInfoWindow.h */,
+				17ACE49E2D5434EA00CBBC90 /* SlicesInfoWindow.m */,
+				1736A81F2D64D14600D8342C /* SlicesInfoWindowController.h */,
+				1736A81E2D64D14600D8342C /* SlicesInfoWindowController.m */,
+				1736A8212D64D15700D8342C /* SlicesInfoWindowController.xib */,
+				177393CB2D4484D8004DE27F /* SlicesViewHierarchy.h */,
+				177393CC2D4484D8004DE27F /* SlicesViewHierarchy.m */,
+				175DAE952D556F1500C946E5 /* SlicesOutlineView.h */,
+				175DAE962D556F1500C946E5 /* SlicesOutlineView.m */,
+				177393C22D447A93004DE27F /* SlicesTableCellView.h */,
+				177393C32D447A93004DE27F /* SlicesTableCellView.m */,
+				1736A8282D6596F200D8342C /* SlicesTextView.h */,
+				1736A8292D6596F200D8342C /* SlicesTextView.m */,
+				175535CB2D6D57BE001A44E1 /* SlicesTextStorage.h */,
+				175535CC2D6D57BE001A44E1 /* SlicesTextStorage.m */,
+				177393C52D4483D0004DE27F /* SlicesTree.h */,
+				177393C62D4483D0004DE27F /* SlicesTree.m */,
+				177393C82D4483FC004DE27F /* SlicesTreeNode.h */,
+				177393C92D4483FC004DE27F /* SlicesTreeNode.m */,
+				17A92DA92D4706C800878241 /* SlicesWindow.h */,
+				17A92DAA2D4706C800878241 /* SlicesWindow.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		17FA6A802CD9B606002F09BC = {
+			isa = PBXGroup;
+			children = (
+				17FA6A902CD9B606002F09BC /* Slices */,
+				17FA6A8B2CD9B606002F09BC /* Frameworks */,
+				17FA6A8A2CD9B606002F09BC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		17FA6A8A2CD9B606002F09BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				17FA6A892CD9B606002F09BC /* Slices.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		17FA6A8B2CD9B606002F09BC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				17FA6A8C2CD9B606002F09BC /* AppKit.framework */,
+				17FA6A8E2CD9B606002F09BC /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		17FA6A902CD9B606002F09BC /* Slices */ = {
+			isa = PBXGroup;
+			children = (
+				175535CE2D6D585E001A44E1 /* default.plist */,
+				175535C92D6D576F001A44E1 /* objective-c.plist */,
+				175DAE982D55790700C946E5 /* Categories */,
+				177393C12D447A6D004DE27F /* Classes */,
+				17FA6A912CD9B606002F09BC /* Slices.h */,
+				17FA6A922CD9B606002F09BC /* Slices.m */,
+				177393BC2D4475B2004DE27F /* SlicesWindowController.h */,
+				177393BD2D4475B2004DE27F /* SlicesWindowController.m */,
+				177393BE2D4475B2004DE27F /* SlicesWindowController.xib */,
+				17FA6A942CD9B606002F09BC /* ZKSwizzle */,
+				17FA6A982CD9B606002F09BC /* Supporting Files */,
+			);
+			path = Slices;
+			sourceTree = "<group>";
+		};
+		17FA6A942CD9B606002F09BC /* ZKSwizzle */ = {
+			isa = PBXGroup;
+			children = (
+				17FA6A952CD9B606002F09BC /* ZKSwizzle.h */,
+				17FA6A962CD9B606002F09BC /* ZKSwizzle.m */,
+			);
+			path = ZKSwizzle;
+			sourceTree = "<group>";
+		};
+		17FA6A982CD9B606002F09BC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				17FA6A992CD9B606002F09BC /* PrefixHeader.pch */,
+				17FA6A9B2CD9B606002F09BC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		17FA6A882CD9B606002F09BC /* Slices */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17FA6A9F2CD9B606002F09BC /* Build configuration list for PBXNativeTarget "Slices" */;
+			buildPhases = (
+				17FA6A862CD9B606002F09BC /* Frameworks */,
+				17FA6A852CD9B606002F09BC /* Sources */,
+				17FA6A872CD9B606002F09BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Slices;
+			productName = Penumbra;
+			productReference = 17FA6A892CD9B606002F09BC /* Slices.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		17FA6A812CD9B606002F09BC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					17FA6A882CD9B606002F09BC = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 17FA6A842CD9B606002F09BC /* Build configuration list for PBXProject "Slices" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 17FA6A802CD9B606002F09BC;
+			productRefGroup = 17FA6A8A2CD9B606002F09BC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				17FA6A882CD9B606002F09BC /* Slices */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		17FA6A872CD9B606002F09BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				177393C02D4475B2004DE27F /* SlicesWindowController.xib in Resources */,
+				175535CA2D6D576F001A44E1 /* objective-c.plist in Resources */,
+				17FA6A9C2CD9B606002F09BC /* Info.plist in Resources */,
+				175535CF2D6D585E001A44E1 /* default.plist in Resources */,
+				17FA6A9A2CD9B606002F09BC /* PrefixHeader.pch in Resources */,
+				1736A8272D656EAA00D8342C /* SlicesInfoTab.xib in Resources */,
+				1736A8222D64D15700D8342C /* SlicesInfoWindowController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		17FA6A852CD9B606002F09BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1780D1C52D5994DA00D58362 /* NSObject+Slices.m in Sources */,
+				175535C82D6D56EC001A44E1 /* SlicesCodeString.m in Sources */,
+				17A92DAE2D47240400878241 /* SlicesTree.m in Sources */,
+				175535D22D6D58BF001A44E1 /* SlicesLayoutManager.m in Sources */,
+				17A92DAD2D4723FE00878241 /* SlicesViewHierarchy.m in Sources */,
+				17ACE49F2D5434EA00CBBC90 /* SlicesInfoWindow.m in Sources */,
+				175535CD2D6D57BE001A44E1 /* SlicesTextStorage.m in Sources */,
+				1736A8202D64D14600D8342C /* SlicesInfoWindowController.m in Sources */,
+				1736A8262D656EAA00D8342C /* SlicesInfoTab.m in Sources */,
+				17FA6A932CD9B606002F09BC /* Slices.m in Sources */,
+				177393BF2D4475B2004DE27F /* SlicesWindowController.m in Sources */,
+				177393CA2D4483FC004DE27F /* SlicesTreeNode.m in Sources */,
+				177393C42D447A93004DE27F /* SlicesTableCellView.m in Sources */,
+				17A92DAB2D4706C800878241 /* SlicesWindow.m in Sources */,
+				1736A82A2D6596F200D8342C /* SlicesTextView.m in Sources */,
+				17FA6A972CD9B606002F09BC /* ZKSwizzle.m in Sources */,
+				175DAE972D556F1500C946E5 /* SlicesOutlineView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		17FA6A9D2CD9B606002F09BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					"$(ARCHS_STANDARD)",
+					arm64e,
+				);
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Slices;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = Slices;
+			};
+			name = Debug;
+		};
+		17FA6A9E2CD9B606002F09BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					"$(ARCHS_STANDARD)",
+					arm64e,
+				);
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Slices;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = Slices;
+			};
+			name = Release;
+		};
+		17FA6AA02CD9B606002F09BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					"$(ARCHS_STANDARD)",
+					arm64e,
+				);
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEPLOYMENT_LOCATION = YES;
+				DEVELOPMENT_TEAM = 7ML54VJYG9;
+				DSTROOT = /;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Slices",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Slices/PrefixHeader.pch;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Slices/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Slices;
+				INSTALL_PATH = "/Library/Application Support/MacEnhance/Plugins";
+				MACH_O_TYPE = mh_dylib;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mtac.slices;
+				PRODUCT_NAME = Slices;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		17FA6AA12CD9B606002F09BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					"$(ARCHS_STANDARD)",
+					arm64e,
+				);
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEPLOYMENT_LOCATION = YES;
+				DEVELOPMENT_TEAM = 7ML54VJYG9;
+				DSTROOT = /;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Slices",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Slices/PrefixHeader.pch;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Slices/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Slices;
+				INSTALL_PATH = "/Library/Application Support/MacEnhance/Plugins";
+				MACH_O_TYPE = mh_dylib;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mtac.slices;
+				PRODUCT_NAME = Slices;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		17FA6A842CD9B606002F09BC /* Build configuration list for PBXProject "Slices" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17FA6A9D2CD9B606002F09BC /* Debug */,
+				17FA6A9E2CD9B606002F09BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17FA6A9F2CD9B606002F09BC /* Build configuration list for PBXNativeTarget "Slices" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17FA6AA02CD9B606002F09BC /* Debug */,
+				17FA6AA12CD9B606002F09BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 17FA6A812CD9B606002F09BC /* Project object */;
+}

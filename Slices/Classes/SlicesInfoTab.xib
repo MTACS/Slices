@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="21701" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+    <dependencies>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="21701"/>
+        <capability name="Image references" minToolsVersion="12.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="SlicesInfoTab">
+            <connections>
+                <outlet property="closeButton" destination="MAb-ds-a4g" id="hkv-2v-6Zs"/>
+                <outlet property="view" destination="Hz6-mo-xeY" id="0bl-1N-x8E"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <customView id="Hz6-mo-xeY">
+            <rect key="frame" x="0.0" y="0.0" width="275" height="60"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+            <subviews>
+                <box verticalHuggingPriority="750" boxType="separator" translatesAutoresizingMaskIntoConstraints="NO" id="Ufp-Hg-ISb">
+                    <rect key="frame" x="4" y="4" width="267" height="5"/>
+                </box>
+                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="ATB-oG-Yfb">
+                    <rect key="frame" x="8" y="22" width="225" height="16"/>
+                    <textFieldCell key="cell" lineBreakMode="clipping" alignment="center" title="Label" id="pa2-2m-h2o">
+                        <font key="font" usesAppearanceFont="YES"/>
+                        <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <button translatesAutoresizingMaskIntoConstraints="NO" id="MAb-ds-a4g">
+                    <rect key="frame" x="241" y="16.5" width="24.5" height="28"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="24" id="Iob-e0-YOm"/>
+                        <constraint firstAttribute="height" constant="24" id="dED-FJ-DNP"/>
+                    </constraints>
+                    <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" imagePosition="only" alignment="center" imageScaling="proportionallyDown" inset="2" id="ZUQ-SZ-fBW">
+                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                        <font key="font" metaFont="system"/>
+                        <imageReference key="image" image="xmark" catalog="system" symbolScale="medium"/>
+                    </buttonCell>
+                    <connections>
+                        <action selector="close:" target="-2" id="c5w-l1-E4d"/>
+                    </connections>
+                </button>
+            </subviews>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="Ufp-Hg-ISb" secondAttribute="bottom" constant="6" id="9ft-NY-d8M"/>
+                <constraint firstItem="ATB-oG-Yfb" firstAttribute="centerY" secondItem="Hz6-mo-xeY" secondAttribute="centerY" id="CFB-sy-cJ0"/>
+                <constraint firstItem="Ufp-Hg-ISb" firstAttribute="leading" secondItem="Hz6-mo-xeY" secondAttribute="leading" constant="4" id="ZWQ-Ej-nPU"/>
+                <constraint firstAttribute="trailing" secondItem="MAb-ds-a4g" secondAttribute="trailing" constant="10" id="olw-Fq-jVE"/>
+                <constraint firstAttribute="trailing" secondItem="Ufp-Hg-ISb" secondAttribute="trailing" constant="4" id="qkh-MH-jPw"/>
+                <constraint firstItem="MAb-ds-a4g" firstAttribute="leading" secondItem="ATB-oG-Yfb" secondAttribute="trailing" constant="10" id="w1S-Af-BT6"/>
+                <constraint firstItem="ATB-oG-Yfb" firstAttribute="leading" secondItem="Hz6-mo-xeY" secondAttribute="leading" constant="10" id="wLP-LW-rkg"/>
+                <constraint firstItem="MAb-ds-a4g" firstAttribute="centerY" secondItem="Hz6-mo-xeY" secondAttribute="centerY" id="yGa-CV-JAd"/>
+            </constraints>
+            <point key="canvasLocation" x="18.5" y="135"/>
+        </customView>
+        <customObject id="efX-zc-9hZ" customClass="SlicesInfoTab">
+            <connections>
+                <outlet property="separatorLine" destination="Ufp-Hg-ISb" id="dP8-5N-a9L"/>
+                <outlet property="titleLabel" destination="ATB-oG-Yfb" id="thO-lX-Kc0"/>
+                <outlet property="view" destination="Hz6-mo-xeY" id="YnZ-h6-967"/>
+            </connections>
+        </customObject>
+    </objects>
+    <resources>
+        <image name="xmark" catalog="system" width="14" height="13"/>
+    </resources>
+</document>

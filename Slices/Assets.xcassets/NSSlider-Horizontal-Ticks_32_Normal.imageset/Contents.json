@@ -1,0 +1,22 @@
+{
+  "images" : [
+    {
+      "filename" : "NSSlider-Horizontal-Ticks_32_Normal.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "NSSlider-Horizontal-Ticks_32_Normal@2x.png",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>attributes</key>
+    <string>#85C1E9</string>
+    <key>background</key>
+    <string>#343536</string>
+    <key>braces</key>
+    <string>#7f8c8d</string>
+    <key>brackets</key>
+    <string>#3498DB</string>
+    <key>builtin</key>
+    <string>#58d68d</string>
+    <key>characters</key>
+    <string>#58D68D</string>
+    <key>classes</key>
+    <string>#F44336</string>
+    <key>comments</key>
+    <string>#7b7d7d</string>
+    <key>documentation_keywords</key>
+    <string>#16A085</string>
+    <key>foundation</key>
+    <string>#FF5722</string>
+    <key>imports</key>
+    <string>#2ECC71</string>
+    <key>keywords</key>
+    <string>#FB8C00</string>
+    <key>literals</key>
+    <string>#3498DB</string>
+    <key>logos</key>
+    <string>#A569BD</string>
+    <key>numbers</key>
+    <string>#3498DB</string>
+    <key>preprocessors</key>
+    <string>#D35400</string>
+    <key>strings</key>
+    <string>#00BCD4</string>
+    <key>title</key>
+    <string>DF</string>
+    <key>uikit</key>
+    <string>#EC407A</string>
+    <key>urls</key>
+    <string>#EC407A</string>
+</dict>
+</plist>
