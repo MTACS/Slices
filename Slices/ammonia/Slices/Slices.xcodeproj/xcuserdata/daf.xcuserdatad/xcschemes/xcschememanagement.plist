@@ -7,12 +7,25 @@
 		<key>Slices.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>1</integer>
+			<integer>0</integer>
 		</dict>
 		<key>SlicesApplication.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>1</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>17BBABEB2E9DE22C00D2E6C6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>17BBABFF2E9DE4D500D2E6C6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>
